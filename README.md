@@ -1,6 +1,6 @@
 # PASSWD - Password Generator
 
-[Deployed Website](#)
+[Deployed Website](https://jahnavi-anand.github.io/PASSWD/)
 
 ## Table of Contents
 - [Introduction](#introduction)
