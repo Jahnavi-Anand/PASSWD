@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #81A4CD;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -15,6 +16,15 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     width: 100%;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
 }
 
 h1 {
@@ -73,4 +83,24 @@ h1 {
 
 #strength {
     font-size: 1.1em;
+}
+
+footer {
+    background-color: #054A91;
+    color: #DBE4EE;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+footer a {
+    color: #DBE4EE;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
