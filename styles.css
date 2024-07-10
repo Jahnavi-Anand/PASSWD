@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #81A4CD;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    background: #fff;
+    background: #DBE4EE;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -49,14 +49,14 @@ h1 {
     padding: 10px 15px;
     margin-right: 10px;
     border: none;
-    background: #007bff;
+    background: #3E7CB1;
     color: #fff;
     border-radius: 3px;
     cursor: pointer;
 }
 
 .controls button:hover {
-    background: #0056b3;
+    background: #054A91;
 }
 
 .output {
