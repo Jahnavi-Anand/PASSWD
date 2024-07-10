@@ -32,6 +32,11 @@ function copyToClipboard() {
     alert('Password copied to clipboard');
 }
 
+document.getElementById('reset').addEventListener('click', function() {
+    location.reload();
+});
+
+
 function updateStrength(password) {
     const result = zxcvbn(password);
     const strengthValue = document.getElementById('strength-value');
